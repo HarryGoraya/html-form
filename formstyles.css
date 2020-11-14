@@ -1,0 +1,41 @@
+.container 
+    {   
+        padding: 25px;   
+        background-color: lightblue; 
+         
+    }
+
+body{
+    background-color: blueviolet;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+header{
+    background-color: chartreuse;
+    text-align: center;
+
+}
+
+input[type=text], input[type=password] 
+    {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+    
+form 
+{   
+    border: 3px solid #e77878; 
+    background-color: blanchedalmond;
+    width: 500px;
+        margin: 10px 10px 1000px;  
+}
+
+footer{
+    background-color: cornsilk;
+}

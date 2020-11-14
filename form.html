@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+    <link rel="stylesheet"  href="formstyles.css">
+</head>
+<body>
+   
+    <header>
+        <h1>HTML FORM</h1>
+    </header>
+    <form >
+      <div id="container">
+       <label for="fname">First Name</label>
+       <input type="text" id="fname" placeholder="first name" required>
+       <label for="lname">Last Name</label>
+       <input type="text" id="lname" placeholder="last name"><br>
+       <label for="email">Email</label>
+       <input type="text" id="email" placeholder="email"><br>
+       <label for="ct">Country</label>
+       <input list="ct" placeholder="countries"><br>
+       <datalist id=ct>
+             <option value="india">
+             <option value="pak">
+             <option value="china">
+       </datalist>
+       <textarea rows="10" cols="40" placeholder="Enter Description"></textarea><br>
+       <input type="submit" value="Submit"><br>
+       <input type="checkbox" checked="checked"> Remember me   
+       <button type="button" class="cancelbtn"> Cancel</button>   
+       Forgot <a href="#"> password? </a>  
+      </div> 
+    </form>
+    <footer>
+        @copyright
+    </footer>
+    </div>
+</body>
+</html>
